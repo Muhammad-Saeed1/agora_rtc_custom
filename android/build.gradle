@@ -1,3 +1,5 @@
+package android
+
 group 'io.agora.agora_rtc_engine'
 version '1.0-SNAPSHOT'
 
@@ -32,7 +34,7 @@ apply plugin: 'kotlin-android'
 android {
 
   if (project.android.hasProperty("namespace")) {
-    namespace 'io.agora.agora_rtc_ng'
+    namespace 'io.agora.agora_rtc_engine'
   }
 
   compileSdkVersion safeExtGet('compileSdkVersion', 31)
